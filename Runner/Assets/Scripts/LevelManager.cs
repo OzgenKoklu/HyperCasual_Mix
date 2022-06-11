@@ -24,7 +24,7 @@ public class LevelManager : Singleton<LevelManager>
             whichlevel = Random.Range(0, levels.Count);
         }
 
-        Instantiate(levels[whichlevel].levelPrefab, Vector3.zero, Quaternion.identity);
+        //Instantiate(levels[whichlevel].levelPrefab, Vector3.zero, Quaternion.identity);
     }
 
     public void NextLevel()
