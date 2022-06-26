@@ -15,4 +15,9 @@ public class GateManager : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Debug.Log("Exit Happened");
+    }
 }
